@@ -1,0 +1,24 @@
+def go_cicle():
+  move()  
+  turn_left()
+  move()
+  turn_left()
+  turn_left()
+  turn_left()
+  move()
+  turn_left()
+  turn_left()
+  turn_left()
+  move()
+
+def turn_around():
+  turn_left()
+  turn_left()
+  turn_left()
+  turn_left()
+  turn_left()
+
+for r in range(0, 5):  
+  go_cicle()
+  turn_around()  
+go_cicle()
